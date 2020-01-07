@@ -7,7 +7,6 @@ public class LibraryTest {
     Library library;
     Book book1;
     Book book2;
-    Book book3;
 
     @Before
     public void before(){
