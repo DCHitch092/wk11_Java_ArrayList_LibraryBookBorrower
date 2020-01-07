@@ -20,6 +20,6 @@ public class BorrowerTest {
 
     @Test
     public void hasBorrowedCollection(){
-        assertEquals(0, borrower.countBooks())
+        assertEquals(0, borrower.countBooks());
     }
 }

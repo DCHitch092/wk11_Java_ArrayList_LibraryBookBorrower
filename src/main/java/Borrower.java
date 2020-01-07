@@ -10,5 +10,6 @@ public class Borrower {
     }
 
     public int countBooks() {
+        return borrowed.size();
     }
 }
