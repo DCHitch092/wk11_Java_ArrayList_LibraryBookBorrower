@@ -33,4 +33,11 @@ public class LibraryTest {
         assertEquals(0, library.checkCapacity());
     }
 
+    @Test
+    public void libraryDoesntOverfill(){
+        library.addBook(book1);
+        library.addBook(book2);
+        assertEquals(1, library.countBooks());
+    }
+
 }
