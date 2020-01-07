@@ -11,7 +11,7 @@ public class LibraryTest {
 
     @Before
     public void before(){
-        library = new Library("The Great Library Of Shangford");
+        library = new Library("The Great Library Of Shangford", 1);
         book1 = new Book("Great Things Of Shangford", "Ollie Cumber", "Local History");
         book2 = new Book("1000 ways to make an omletter without cracking eggs", "Janice Fambrozy", "cookery");
 
@@ -26,4 +26,10 @@ public class LibraryTest {
         library.addBook(book1);
         assertEquals(1, library.countBooks());
     }
+
+    @Test
+    public void libraryHasCapacity(){
+        assertEquals(1, library.checkCapacity());
+    }
+
 }
