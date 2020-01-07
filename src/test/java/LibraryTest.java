@@ -4,17 +4,20 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class LibraryTest {
+
+    Borrower borrower;
     Library library;
     Book book1;
     Book book2;
 
     @Before
     public void before(){
+        borrower = new Borrower("Denald Gump");
         library = new Library("The Great Library Of Shangford", 1);
         book1 = new Book("Great Things Of Shangford", "Ollie Cumber", "Local History");
         book2 = new Book("1000 ways to make an omletter without cracking eggs", "Janice Fambrozy", "cookery");
-
     }
+
     @Test
     public void libraryHasBookCollection(){
         assertEquals(0, library.countBooks());
@@ -38,5 +41,14 @@ public class LibraryTest {
         library.addBook(book2);
         assertEquals(1, library.countBooks());
     }
+
+    @Test
+    public void libraryCanLendToBorrower(){
+        library.addBook(book1);
+        library.lendBook(book1, borrower);
+        assertEquals(0, library.countBooks());
+        assertEquals(1, borrower.countBooks());
+    }
+
 
 }

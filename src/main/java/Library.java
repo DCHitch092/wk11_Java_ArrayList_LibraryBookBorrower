@@ -16,12 +16,18 @@ public class Library {
     }
 
     public void addBook(Book book){
-        if(checkCapacity() != 0) {
+        int capacity = checkCapacity();
+        if( capacity != 0 ) {
             bookCollection.add(book);
         }
     }
 
     public int checkCapacity() {
         return capacity - countBooks();
+    }
+
+    public void lendBook(Book book, Borrower borrower){
+        borrower.addBook(book);
+        bookCollection.remove(book);
     }
 }
