@@ -16,7 +16,9 @@ public class Library {
     }
 
     public void addBook(Book book){
-        bookCollection.add(book);
+        if(checkCapacity() != 0) {
+            bookCollection.add(book);
+        }
     }
 
     public int checkCapacity() {

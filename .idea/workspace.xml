@@ -30,12 +30,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.libraryHasCapacity">
+  <component name="RunManager" selected="JUnit.LibraryTest.libraryDoesntOverfill">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryHomework_Classes" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.libraryDoesntOverfill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryHomework_Classes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="libraryDoesntOverfill" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -52,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.libraryDoesntOverfill" />
         <item itemvalue="JUnit.LibraryTest.libraryHasCapacity" />
         <item itemvalue="JUnit.LibraryTest" />
       </list>
@@ -83,22 +94,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="886" height="245" key="GridCell.Tab.0.bottom" timestamp="1578434595153">
+    <state width="886" height="245" key="GridCell.Tab.0.bottom" timestamp="1578434620966">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="886" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578434595153" />
-    <state width="886" height="245" key="GridCell.Tab.0.center" timestamp="1578434595152">
+    <state width="886" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578434620966" />
+    <state width="886" height="245" key="GridCell.Tab.0.center" timestamp="1578434620964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="886" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578434595152" />
-    <state width="886" height="245" key="GridCell.Tab.0.left" timestamp="1578434595151">
+    <state width="886" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578434620964" />
+    <state width="886" height="245" key="GridCell.Tab.0.left" timestamp="1578434620963">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="886" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578434595151" />
-    <state width="886" height="245" key="GridCell.Tab.0.right" timestamp="1578434595152">
+    <state width="886" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578434620963" />
+    <state width="886" height="245" key="GridCell.Tab.0.right" timestamp="1578434620965">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="886" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578434595152" />
+    <state width="886" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578434620965" />
     <state x="714" y="210" key="extract.method.dialog" timestamp="1578433895838">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
