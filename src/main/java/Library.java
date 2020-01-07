@@ -8,7 +8,7 @@ public class Library {
     public Library(String name, int capacity){
         this.name = name;
         this.bookCollection = new ArrayList<Book>();
-        this.capacity = capacity
+        this.capacity = capacity;
     }
 
     public int countBooks(){
@@ -20,5 +20,6 @@ public class Library {
     }
 
     public int checkCapacity() {
+        return capacity - countBooks();
     }
 }
