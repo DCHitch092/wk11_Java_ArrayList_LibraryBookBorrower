@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a373b4-bc78-498f-a84e-98973677bb02" name="Default Changelist" comment="" />
+    <list default="true" id="13a373b4-bc78-498f-a84e-98973677bb02" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +16,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W5J6Qv7oGUXyijGCP0iEPuF9UE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,6 +72,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="886" height="245" key="GridCell.Tab.0.bottom" timestamp="1578434219238">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1578434219238" />
+    <state width="886" height="245" key="GridCell.Tab.0.center" timestamp="1578434219236">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1578434219236" />
+    <state width="886" height="245" key="GridCell.Tab.0.left" timestamp="1578434219235">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1578434219235" />
+    <state width="886" height="245" key="GridCell.Tab.0.right" timestamp="1578434219237">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="886" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1578434219237" />
     <state x="714" y="210" key="extract.method.dialog" timestamp="1578433895838">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
